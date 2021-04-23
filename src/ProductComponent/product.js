@@ -55,11 +55,11 @@ class Product extends Component {
     console.log(
       nextState.currentPreviewImagePos === this.state.currentPreviewImagePos
     );
-    if (
-      nextState.currentPreviewImagePos === this.state.currentPreviewImagePos
-    ) {
-      return false;
-    }
+//    if (
+//      nextState.currentPreviewImagePos === this.state.currentPreviewImagePos
+//    ) {
+//      return false;
+//    }
 
     return true;
   }
