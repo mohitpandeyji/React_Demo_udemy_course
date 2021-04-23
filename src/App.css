@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.BlogCard {
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #24444;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,124 @@
+@fontface {
+  font-family: "Bungee Inline", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+}
+body {
+  font-family: "Bungee Inline", cursive;
+}
+.Topbar {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #0d1a26;
+  color: #fff;
+  padding: 24px 48px 12px;
+}
+
+.Topbar > img {
+  width: 100px;
+}
+
+.MainContainer {
+  padding: 2px 4px;
+  border-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.preview {
+  width: 50%;
+  position: relative;
+}
+
+.detail {
+  width: 50%;
+}
+
+.preview > img {
+  width: 100%;
+}
+
+.productTitle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.productDescription {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.productImage {
+  width: 100%;
+  max-width: 80px;
+  margin-right: 12px;
+}
+
+.selectedProductImage {
+  border: 2px solid teal;
+}
+
+.FeatureItem {
+  background-color: gainsboro;
+  border: 0;
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 36px;
+  text-align: center;
+  margin-right: 12px;
+  pointer: center;
+  font-weight: 600;
+}
+
+.selectedFeatureItem {
+  color: white;
+  background-color: gray;
+}
+
+.BuyButton {
+  color: white;
+  background-color: teal;
+  border: 0;
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 36px;
+}
+
+.FeatureDataTime {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.FeatureDataHeart {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

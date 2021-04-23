@@ -1,0 +1,8 @@
+.BlogCard {
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: green;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px;
+}
